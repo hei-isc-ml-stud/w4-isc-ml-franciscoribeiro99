@@ -21,3 +21,8 @@ will guide you into the different steps to be performed for this assignment.
 
 **IMPORTANT**: the notebook will ultimately be converted into a report, so make sure to keep it nice
 and tidy all along. Take notes and describe your findings as you go. 
+
+
+pandoc week4-assignment.ipynb --pdf-engine=typst --extract-media --template=isc_template_report.typ -o repport.typ
+
+
